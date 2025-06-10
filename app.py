@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from scraper import scrape_books
+from scraper import scrape_quotes
+
 
 st.set_page_config(page_title="Веб Провид", layout="wide")
 

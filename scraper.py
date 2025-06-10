@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 def scrape_books(num_pages=3):
-    base_url = "https://quotes.toscrape.com/"
+    base_url = "books.toscrape.com/catalogue/page-{}"
     titles, prices, ratings = [], [], []
 
     for page in range(1, num_pages + 1):
